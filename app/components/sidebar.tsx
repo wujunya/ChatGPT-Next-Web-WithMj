@@ -127,9 +127,9 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           扫描公众号回复【666】获取访问密码
         </div>
-        <div className={styles["sidebar-logo"] + " no-dark"}>
+{/*         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
-        </div>
+        </div> */}
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
