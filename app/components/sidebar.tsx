@@ -119,9 +119,12 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+        <div className={styles["sidebar-title"]}>AIChat</div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          请在设置中填写API-KEY
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+          API-KEY请于知识星球获取
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -154,6 +157,11 @@ export function SideBar(props: { className?: string }) {
         }}
       >
         <ChatList narrow={shouldNarrow} />
+      </div>
+      
+      <div className={styles["sidebar-tail"]}>
+        
+        GPT写作与AI绘画交流群
       </div>
 
       <div className={styles["sidebar-tail"]}>
