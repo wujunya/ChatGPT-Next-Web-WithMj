@@ -8,8 +8,9 @@ import GithubIcon from "../icons/github.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
-import MaskIcon from "../icons/mask.svg";
-import PluginIcon from "../icons/plugin.svg";
+// import MaskIcon from "../icons/mask.svg";
+// import PluginIcon from "../icons/plugin.svg";
+import XqIcon from "../icons/xq.svg";
 
 import Locale from "../locales";
 
@@ -121,10 +122,10 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AIChat</div>
         <div className={styles["sidebar-sub-title"]}>
-          请在设置中填写API-KEY
+          请在设置中填写API-KEY或者访问密码
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          API-KEY请于知识星球获取
+          扫描公众号回复【666】获取访问密码
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -132,20 +133,7 @@ export function SideBar(props: { className?: string }) {
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
-        <IconButton
-          icon={<MaskIcon />}
-          text={shouldNarrow ? undefined : Locale.Mask.Name}
-          className={styles["sidebar-bar-button"]}
-          onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
-          shadow
-        />
-        <IconButton
-          icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
-          className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
-          shadow
-        />
+       <XqIcon />
       </div>
 
       <div
@@ -159,11 +147,7 @@ export function SideBar(props: { className?: string }) {
         <ChatList narrow={shouldNarrow} />
       </div>
       
-      <div className={styles["sidebar-tail"]}>
-        
-        GPT写作与AI绘画交流群
-      </div>
-
+ 
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
           <div className={styles["sidebar-action"] + " " + styles.mobile}>
