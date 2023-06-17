@@ -122,10 +122,10 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AIChat聊天机器人</div>
         <div className={styles["sidebar-sub-title"]}>
-          请在设置中填写API-KEY或访问密码
+          请在设置中填写API-KEY进行使用
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          扫描公众号回复【666】获取访问密码
+          API-KEY请于知识星球获取
         </div>
 {/*         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
