@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入访问密码，访问密码每月1号定期更新于知识星球置顶文章",
+      "请前往[设置](/#/settings)页输入访问密码，访问密码每月1号定期更新于知识星球置顶文章",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
