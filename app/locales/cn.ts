@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "为避免恶意攻击，请前往[设置](/#/settings)页输入访问密码，访问密码每月1号定期更换,密码获取请参考网站指引",
+      "为避免恶意攻击，请前往[设置](/#/settings)页输入访问密码，访问密码每月1号定期更换,密码获取请参考网站首页指引",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
