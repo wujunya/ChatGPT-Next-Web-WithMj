@@ -124,6 +124,9 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           请在设置中填访问密码使用,访问密码每月1号定期更换于下方星球置顶文章
         </div>
+        <div className={styles["sidebar-sub-title"]}>
+          Plus 4.0共享号包售后30天：50元,联系微信：476430956
+        </div>
 {/*         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div> */}
