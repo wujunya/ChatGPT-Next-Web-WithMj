@@ -127,6 +127,10 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           Plus 4.0共享号包售后30天：50元,联系微信：476430956
         </div>
+        <div className={styles["sidebar-sub-title"]}>
+           <a href="https://ai.ai1024.vip" target="_blank">高级版AI站支持做PPT、思维导图、等更多实用功能</a>
+        </div>
+       
 {/*         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div> */}
