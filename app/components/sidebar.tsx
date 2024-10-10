@@ -122,13 +122,13 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>AIChat写作站</div>
         <div className={styles["sidebar-sub-title"]}>
-           网站功能移步<a href="https://ai.ai1024.vip" target="_blank">乐学AI</a>
+           网站功能移步<a href="https://wbchat.top/buy/61" target="_blank">国内GPT4o独享号</a>
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Plus 4.0共享号包售后30天：55元,联系微信：476430956
+          Plus 4.0独享号包售后30天：55元,联系微信：476430956
         </div>
         <div className={styles["sidebar-sub-title"]}>
-           <a href="https://ai.ai1024.vip" target="_blank">乐学AI支持做PPT、思维导图、等更多实用功能</a>
+           <a href="https://wbchat.top/buy/61" target="_blank">国内GPT4o独享号</a>
         </div>
        
 {/*         <div className={styles["sidebar-logo"] + " no-dark"}>
