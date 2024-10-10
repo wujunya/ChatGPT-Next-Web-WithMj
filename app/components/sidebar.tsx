@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>AIChat写作站</div>
+        <div className={styles["sidebar-title"]}>国内GPT4o独享号</div>
         <div className={styles["sidebar-sub-title"]}>
            网站功能移步<a href="https://wbchat.top/buy/61" target="_blank">国内GPT4o独享号</a>
         </div>
