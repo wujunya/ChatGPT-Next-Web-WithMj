@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "请移步👉[乐学AI](https://ai.ai1024.vip/web/#/)",
+      "请移步👉[4.0付费网站](https://wbchat.top/buy/61)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
